@@ -47,16 +47,20 @@
         "clsx": "^2.1.1",
         "concurrently": "^9.0.1",
         "globals": "^15.14.0",
+        "jquery": "^3.7.1",
         "laravel-vite-plugin": "^1.0",
         "lucide-react": "^0.475.0",
+        "owl.carousel": "^2.3.4",
         "postcss": "^8.5.3",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
+        "react-owl-carousel": "^2.3.3",
         "tailwind-merge": "^3.0.1",
         "tailwindcss": "^4.1.3",
         "tailwindcss-animate": "^1.0.7",
         "typescript": "^5.7.2",
-        "vite": "^6.0"
+        "vite": "^6.0",
+        "webpack": "^5.99.5"
     },
     "optionalDependencies": {
         "@rollup/rollup-linux-x64-gnu": "4.9.5",

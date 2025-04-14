@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import laravel from 'laravel-vite-plugin';
 import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
+import webpack from 'webpack';
 
 export default defineConfig({
     plugins: [
