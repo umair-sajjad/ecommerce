@@ -5,6 +5,15 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createRoot } from 'react-dom/client';
 
 import $ from 'jquery';
+
+// Extend the Window interface to include the $ property
+declare global {
+    interface Window {
+        $: typeof $;
+        jQuery: typeof $;
+    }
+}
+
 window.$ = window.jQuery = $;
 
 
