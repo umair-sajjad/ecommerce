@@ -1,5 +1,7 @@
 import HomeCarousal from "@/components/homeCarousal";
+import InfoSection from "@/components/infoSection";
 import Navbar from "@/components/navbar";
+import ProductsSection from "@/components/productsSection";
 export default function Home() {
     return (
         <>
@@ -9,7 +11,8 @@ export default function Home() {
                 <HomeCarousal/>
             </div>
             </section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repudiandae enim ipsa vitae nobis quo eaque sequi commodi odio ullam maxime nulla, error tempore sunt vel aspernatur, consequuntur expedita nisi.</p>
+            <InfoSection/>
+            <ProductsSection/>
         </>
     );
 }

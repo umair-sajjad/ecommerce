@@ -13,7 +13,7 @@ export default function HomeCarousal() {
     dots: false,
     navText: [
       // Previous button
-      `<div class="flex items-center absolute right-[100px] bottom-[-69px] opacity-80 hover:opacity-100">
+      `<div class="lg:flex items-center hidden absolute right-[80px] bottom-[-69px] opacity-80 hover:opacity-100">
          <div class="text-white font-bold uppercase cursor-pointer">
            <div class="text-sm">Prev</div>
             <div class="text-xs">
@@ -36,7 +36,7 @@ export default function HomeCarousal() {
        </div>`,
       
       // Next button
-      `<div class="flex items-center  absolute right-[170px] bottom-[-70px] opacity-80 hover:opacity-100">
+      `<div class="lg:flex items-center absolute hidden right-[150px] bottom-[-70px] opacity-80 hover:opacity-100">
          <div class="text-white font-bold uppercase cursor-pointer">
            <div class="text-sm">NEXT</div>
            <div class="text-xs">
@@ -62,8 +62,8 @@ export default function HomeCarousal() {
 
   return (
     <OwlCarousel className="owl-theme" {...options}>
-      <div className="flex justify-between items-center mt-[50px] px-17">
-          <div className='w-[35%]'>
+      <div className="flex justify-between items-center mt-[100px] px-17">
+          <div className='w-full lg:w-[35%]'>
               <h1 className='font-bold text-6xl'>Mike New <br/>Collection!</h1>
               <p className='mt-11 text-neutral-600 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos rerum vitae tenetur dolore tempora laboriosam similique deserunt autem corrupti magni accusantium</p>
               <div className='flex  mt-5 items-center'>
@@ -75,12 +75,12 @@ export default function HomeCarousal() {
                 <p className='font-bold text-md ml-3'>SHOP NOW</p> 
               </div>
           </div>
-          <div className='w-[60%] px-5'>
+          <div className='w-[60%] px-5 hidden lg:block'>
             <img src="/images/banner-img.png" alt="Image 1" />
           </div>
       </div>
-      <div className="flex justify-between items-center mt-[50px] px-17">
-      <div className='w-[35%]'>
+      <div className="flex justify-between items-center mt-[100px] px-17">
+          <div className='w-full lg:w-[35%]'>
               <h1 className='font-bold text-6xl'>Mike New <br/>Collection!</h1>
               <p className='mt-11 text-neutral-600 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos rerum vitae tenetur dolore tempora laboriosam similique deserunt autem corrupti magni accusantium</p>
               <div className='flex  mt-5 items-center'>
@@ -92,12 +92,12 @@ export default function HomeCarousal() {
                 <p className='font-bold text-md ml-3'>SHOP NOW</p> 
               </div>
           </div>
-          <div className='w-[60%] px-5'>
+          <div className='w-[60%] px-5 hidden lg:block'>
             <img src="/images/banner-img.png" alt="Image 1" />
           </div>
       </div>
-      <div className="flex justify-between items-center mt-[50px] px-17">
-      <div className='w-[35%]'>
+      <div className="flex justify-between items-center mt-[100px] px-17">
+          <div className='w-full lg:w-[35%]'>
               <h1 className='font-bold text-6xl'>Mike New <br/>Collection!</h1>
               <p className='mt-11 text-neutral-600 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos rerum vitae tenetur dolore tempora laboriosam similique deserunt autem corrupti magni accusantium</p>
               <div className='flex  mt-5 items-center'>
@@ -109,7 +109,7 @@ export default function HomeCarousal() {
                 <p className='font-bold text-md ml-3'>SHOP NOW</p> 
               </div>
           </div>
-          <div className='w-[60%] px-5'>
+          <div className='w-[60%] px-5 hidden lg:block'>
             <img src="/images/banner-img.png" alt="Image 1" />
           </div>
       </div>
