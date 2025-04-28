@@ -1,7 +1,7 @@
 export default function InfoSection() {
     return (
         <section className="flex flex-col items-center">
-            <div className="mt-24 flex w-[85%] flex-wrap items-center p-6 shadow-lg">
+            <div className="mt-24 flex w-[85%] flex-wrap items-center p-6 shadow-lg max-w-6xl">
                 <div className="flex w-full flex-col items-center justify-center border-neutral-200 py-4 sm:w-1/2 lg:w-1/4 lg:border-r">
                     <img className="p-4 transition-all duration-400 hover:opacity-50" src="/images/f-icon1.png" alt="" />
                     <p className="font-bold">Free Delivery</p>
@@ -24,7 +24,7 @@ export default function InfoSection() {
                 </div>
             </div>
 
-            <div className="mt-24 grid w-[85%] grid-cols-6 grid-rows-4 gap-4 p-4">
+            <div className="mt-24 grid w-[85%] grid-cols-6 grid-rows-4 gap-4 p-4 max-w-6xl">
                 <div className="col-span-6 row-span-4 md:col-span-6 md:row-span-4 lg:col-span-4 lg:row-span-4 lg:my-4 grid grid-cols-5 grid-rows-4 gap-4">
                     <div className="group relative col-span-5 row-span-4 md:col-span-3 md:row-span-2 overflow-hidden">
                         <div className="absolute top-0 left-0 z-10 h-full w-full bg-black opacity-0 transition-all duration-300 group-hover:opacity-50"></div>

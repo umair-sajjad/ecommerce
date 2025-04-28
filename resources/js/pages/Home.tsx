@@ -1,7 +1,9 @@
 import HomeCarousal from "@/components/homeCarousal";
 import InfoSection from "@/components/infoSection";
 import Navbar from "@/components/navbar";
+import OfferSection from "@/components/offerSection";
 import ProductsSection from "@/components/productsSection";
+import WeekSection from "@/components/weekSection";
 export default function Home() {
     return (
         <>
@@ -13,6 +15,8 @@ export default function Home() {
             </section>
             <InfoSection/>
             <ProductsSection/>
+            <OfferSection/>
+            <WeekSection/>
         </>
     );
 }
