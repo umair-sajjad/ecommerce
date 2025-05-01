@@ -102,7 +102,7 @@ export default function OfferSection() {
 
     return (
         <section className="flex w-full flex-col lg:flex-row items-stretch">
-            <div className="flex w-full lg:w-1/2 flex-col items-center justify-center bg-[url(/images/exclusive.jpg)] bg-cover bg-center bg-no-repeat py-[275px] text-white">
+            <div className="flex w-full lg:w-1/2 flex-col items-center justify-center bg-[url(/images/exclusive.jpg)] bg-cover bg-center bg-no-repeat py-[275px] text-white relative">
                 <div className="absolute top-0 left-0 z-10 h-full w-full bg-black opacity-50"></div>
                 <div className="relative z-20 w-[75%] text-center">
                     <h1 className="text-4xl font-semibold">Exclusive Hot Deal Ends Soon!</h1>

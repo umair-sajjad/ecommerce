@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import HomeCarousal from "@/components/homeCarousal";
 import InfoSection from "@/components/infoSection";
 import Navbar from "@/components/navbar";
@@ -17,6 +18,7 @@ export default function Home() {
             <ProductsSection/>
             <OfferSection/>
             <WeekSection/>
+            <Footer/>
         </>
     );
 }

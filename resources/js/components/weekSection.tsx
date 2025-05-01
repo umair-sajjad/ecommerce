@@ -2,7 +2,7 @@ export default function WeekSection() {
     return (
         <>
             <section className="flex flex-wrap justify-center">
-                <div className="flex w-full flex-col items-center justify-center sm:w-[95%] md:flex-row md:justify-between lg:w-[75%]">
+                <div className="flex w-full max-w-6xl flex-col items-center justify-center sm:w-[95%] md:flex-row md:justify-between lg:w-[75%]">
                     <div className="flex w-full items-center justify-evenly md:hidden">
                         <div className="flex flex-col items-center justify-between">
                             <img
@@ -63,8 +63,8 @@ export default function WeekSection() {
                     />
                 </div>
             </section>
-            <section className="mt-10 flex flex-col items-center ">
-                <div className="flex w-[85%] max-w-6xl flex-col items-center ">
+            <section className="mt-10 flex flex-col items-center">
+                <div className="flex w-[85%] max-w-6xl flex-col items-center">
                     <div className="flex items-center justify-center">
                         <h1 className="text-center text-3xl font-semibold sm:text-4xl md:text-5xl">Deal of the Week</h1>
                     </div>
@@ -73,11 +73,11 @@ export default function WeekSection() {
                         odit sint.
                     </p>
                 </div>
-                <div className="my-10 w-[85%] p-4 flex items-center justify-between">
-                    <div className="flex flex-wrap justify-between">
+                <div className="my-10 lg:w-[85%] p-4 flex justify-between items-stretch max-w-6xl">
+                    <div className="flex flex-wrap justify-around sm:justify-between">
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r1.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -91,7 +91,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r2.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -105,7 +105,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r3.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -119,7 +119,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r9.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -133,7 +133,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r5.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -147,7 +147,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r6.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -161,7 +161,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r7.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -175,7 +175,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r11.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -189,7 +189,7 @@ export default function WeekSection() {
                         </div>
                         <div className="flex justify-between group hover:cursor-pointer my-4">
                             <div>
-                                <img src="/images/i1.jpg" className="w-20"  alt="fsgdf" />
+                                <img src="/images/r10.jpg" className="w-20"  alt="fsgdf" />
                             </div>
                             <div className="flex flex-col items-center p-3">
                             <h2 className="text-sm uppercase group-hover:text-[#ffc107] transition-all ease-in-out duration-300">black hale heel</h2>
@@ -202,7 +202,7 @@ export default function WeekSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center w-[70%] px-15">
+                    <div className="hidden w-[70%] px-5 xl:flex items-center justify-center">
                         <img src="/images/c5.jpg" className="w-full" alt="" />
                     </div>
                 </div>

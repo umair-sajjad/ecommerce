@@ -1,6 +1,6 @@
-import ContactSection from '@/components/contactSection';
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
+import PasswordResetSection from '@/components/passwordResetSection';
 import { Link } from '@inertiajs/react';
 
 export default function LoginCustomer() {
@@ -10,7 +10,7 @@ export default function LoginCustomer() {
             <section className="relative flex h-[60vh] sm:bg-[url('/images/common-banner.jpg')] sm:bg-cover sm:bg-center sm:bg-no-repeat bg-linear-90 bg-linear-gradient-to-r from-[#ffba00] from-0% to-[#ff6c00] to-100%">
                 <div className="container mx-auto flex h-full items-center justify-start sm:justify-end  px-2 sm:px-25">
                     <div className='mt-15'>
-                        <h2 className='text-white text-3xl sm:text-4xl font-bold'>Contact Us</h2>
+                        <h2 className='text-white text-3xl sm:text-4xl font-bold'>Reset Password</h2>
                         <span className='text-sm text-white mt-2 block'>
                             <Link href='/'>Home</Link>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="size-5 inline-block mx-2">
@@ -20,13 +20,13 @@ export default function LoginCustomer() {
                                     clipRule="evenodd"
                                 />
                             </svg>
-                            Contact Us
+                            Reset password
                         </span>
                     </div>
                 </div>
             </section>
-            <main className='md:w-[75%] w-[90%] mx-auto py-20 max-w-6xl '>
-                <ContactSection/>
+            <main className='md:w-[75%] w-[90%] mx-auto py-20 max-w-6xl flex justify-center items-center'>
+                <PasswordResetSection/>    
             </main>
             <Footer />
         </>
