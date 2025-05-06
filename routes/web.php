@@ -24,4 +24,24 @@ Route::get('/register', function () {
 Route::get('/password-reset', function () {
     return Inertia::render('passwordReset');
 })->name('password-reset');
-
+Route::get('/cart', function () {
+    return Inertia::render('cart');
+})->name('cart');
+Route::get('/checkout', function () {
+    return Inertia::render('checkout');
+})->name('/checkout');
+Route::get('/confirmation', function () {
+    return Inertia::render('confirmation');
+})->name('/confirmation');
+Route::get('/track', function () {
+    return Inertia::render('tracking');
+})->name('/track');
+Route::get('/profile', function () {
+    return Inertia::render('profile');
+})->name('/profile');
+Route::get('/history', function () {
+    return Inertia::render('orderHistory');
+})->name('/history');
+Route::get('/terms', function () {
+    return Inertia::render('terms');
+})->name('/terms');

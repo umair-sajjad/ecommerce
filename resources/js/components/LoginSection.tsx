@@ -22,7 +22,7 @@ export default function LoginSection() {
                     <h1 className="text-center font-semibold text-xl">LOGIN TO ENTER</h1>
                     <form action="#" className=" mt-10">
                         <div>
-                            <input type="text" placeholder="Username" name="username" className="p-4 border-b-1 border-gray-300 outline-0 w-full"/>
+                            <input type="text" placeholder="Username OR email" name="userkey" className="p-4 border-b-1 border-gray-300 outline-0 w-full"/>
                             <span className="text-red-600 text-end text-[14px] block">error</span>
                         </div>
                         <div>

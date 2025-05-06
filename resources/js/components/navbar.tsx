@@ -157,10 +157,10 @@ export default function Navbar() {
                             </svg>
                         </Link>
                         <ul className='absolute hidden group-hover:block shadow-2xl bg-white w-50'>
-                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href=''>Update Profile</Link></li>
-                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href=''>Track Orders</Link></li>
-                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href=''>Orders History</Link></li>
-                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold'><Link href=''>Sign Out</Link></li>
+                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href='/profile'>Update Profile</Link></li>
+                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href='/track'>Track Orders</Link></li>
+                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href='/history'>Orders History</Link></li>
+                            <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold'><button>Sign Out</button></li>
                         </ul>
                     </li>
                 </ul>
@@ -270,10 +270,10 @@ export default function Navbar() {
                         </button>
                         { showMobileLog && (
                             <ul className='absolute shadow-2xl bg-white w-50 z-50 right-0'>
-                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href=''>Update Profile</Link></li>
-                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href=''>Track Orders</Link></li>
-                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href=''>Orders History</Link></li>
-                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold'><Link href=''>Sign Out</Link></li>
+                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href='/profile'>Update Profile</Link></li>
+                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href='/track'>Track Orders</Link></li>
+                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold border-b-1 border-gray-200'><Link href='/history'>Orders History</Link></li>
+                                        <li className='p-4 text-sm text-[#ffba00] hover:text-white bg-white hover:bg-[#ffba00] transition-all ease-in-out duration-300 font-semibold'><button>Sign Out</button></li>
                                     </ul>
                                     )}
                                 </li>

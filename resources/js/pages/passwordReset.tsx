@@ -7,7 +7,7 @@ export default function LoginCustomer() {
     return (
         <>
             <Navbar />
-            <section className="relative flex h-[60vh] sm:bg-[url('/images/common-banner.jpg')] sm:bg-cover sm:bg-center sm:bg-no-repeat bg-linear-90 bg-linear-gradient-to-r from-[#ffba00] from-0% to-[#ff6c00] to-100%">
+            <section className="relative flex h-[50vh] sm:bg-[url('/images/common-banner.jpg')] sm:bg-cover sm:bg-center sm:bg-no-repeat bg-linear-90 bg-linear-gradient-to-r from-[#ffba00] from-0% to-[#ff6c00] to-100%">
                 <div className="container mx-auto flex h-full items-center justify-start sm:justify-end  px-2 sm:px-25">
                     <div className='mt-15'>
                         <h2 className='text-white text-3xl sm:text-4xl font-bold'>Reset Password</h2>
