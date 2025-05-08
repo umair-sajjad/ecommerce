@@ -17,7 +17,7 @@ export default function Footer() {
                         <input type="email" placeholder="Enter Email" className="md:w-60 xl:w-75  border-none bg-amber-50 px-4 py-2 focus:outline-none " />
                         <button
                             type="submit"
-                            className="bg-linear-gradient-to-r flex h-full items-center justify-center bg-linear-90 from-[#ffba00] from-0% to-[#ff6c00] to-100% p-2"
+                            className=" flex h-full items-center justify-center bg-linear-gradient-to-r bg-linear-90 from-[#ffba00] from-0% to-[#ff6c00] to-100% p-2"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" className={'h-6 w-6'}>
                                 <path
